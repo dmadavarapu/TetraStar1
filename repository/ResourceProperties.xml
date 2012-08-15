@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Environment>
+	<starmaps>
+		<star>
+			<id>star1</id>
+			<x>10</x>
+			<y>10</y>
+			<direction>star1 direction</direction>
+			<path>/Resources/star.jpeg</path>
+		</star>
+		<star>
+			<id>star2</id>
+			<x>40</x>
+			<y>40</y>
+			<direction>star2 direction</direction>
+			<path>/Resources/star.jpeg</path>
+		</star>
+                <star>
+			<id>star3</id>
+			<x>70</x>
+			<y>70</y>
+			<direction>star3 direction</direction>
+			<path>/Resources/star.jpeg</path>
+		</star>
+		<star>
+			<id>star4</id>
+			<x>100</x>
+			<y>100</y>
+			<direction>star4 direction</direction>
+			<path>/Resources/star.jpeg</path>
+		</star>
+		<star>
+			<id>star5</id>
+			<x>50</x>
+			<y>50</y>
+			<direction>star5 direction</direction>
+			<path>/Resources/star.jpeg</path>
+		</star>
+	</starmaps>
+        <staratlas>
+                <atlas>
+                         <id>atlas1</id>
+                         <x>200</x>
+                         <y>200</y>
+                         <direction>star1 direction</direction>
+                         <path>/Resources/atlas.jpeg</path>
+                                <stars>
+                                <star>star3</star>
+                                <star>star4</star>
+                                <star>star5</star>
+                                </stars>
+                        </atlas>
+                </staratlas>
+
+        <base>
+                <HeroBase>
+                            <HeroBase1>
+                                <id>thero_base1</id>
+                                <x>300</x>
+                                <y>300</y>
+                                <path>/Resources/home.jpg</path>
+                            </HeroBase1>
+                            <HeroBase2>
+                                <id>thero_base2</id>
+                                <x>450</x>
+                                <y>900</y>
+                                <path>/Resources/home.jpg</path>
+                            </HeroBase2>
+                </HeroBase>
+                <vaderbase>
+                            <vaderbase1>
+                                    <id>tvader_base1</id>
+                                    <x>600</x>
+                                    <y>600</y>
+                                    <path>/Resources/home.jpg</path>
+                            </vaderbase1>
+                </vaderbase>
+                <roverbase>
+                            <roverbase1>
+                                    <id>trover_base1</id>
+                                    <x>150</x>
+                                    <y>150</y>
+                                    <path>/Resources/tree2.png</path>
+                            </roverbase1>
+                            <roverbase2>
+                                    <id>trover_base2</id>
+                                    <x>750</x>
+                                    <y>40</y>
+                                    <path>/Resources/home.jpg</path>
+                            </roverbase2>
+                </roverbase>
+                
+                
+                
+        </base>
+        <tree>             
+                        <id>river</id>
+                        <path>/Resources/tree2.jpg</path>
+            
+        </tree>
+           
+        
+</Environment>
